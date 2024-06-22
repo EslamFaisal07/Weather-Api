@@ -1,0 +1,27 @@
+body{
+    background-image: url(../images/pexels-cottonbro-3944460.jpg);
+    background-size:cover;
+    background-position: center center;
+    
+    /* height: 500vh; */
+
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+ul li  {
+    position: relative;
+  }
+  ul li a::after{
+    content: "";
+    position: absolute;
+    width:0%;
+    height: 2px;
+    background-color: red;
+    bottom: 0;
+    left: 21px;
+    transition: all 0.5s;
+  }
+  ul li a:hover::after{
+    width:55%;
+  }

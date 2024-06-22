@@ -1,0 +1,73 @@
+body{
+    background-color: #262936;
+    /* background-image: url(../images/banner.png); */
+    background-size: cover;
+}
+nav{
+    background-color: #1E202B;
+}
+
+input{
+    background-color: #414350 !important;
+}
+textarea{
+    background-color: #434654 !important;
+
+}
+
+.content{
+    background-color: #262936;
+    
+}
+.color-light {
+    background-color: #1E202B;
+
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    background-color: #1E202B;
+border-radius: 50%;
+transition: all 0.5s;
+}
+.icon:hover{
+    background-color: #09c;
+}
+i{
+    color: #09c;
+
+}
+.icon:hover i{
+    color: white;
+}
+::-webkit-input-placeholder
+{
+    color: #aaa !important;
+    font-size: small;
+}
+#find{
+    top: 5px;
+    right: 474px;
+    padding: 12px;
+
+}
+#location{
+    background-color: #1E202B;
+    color: white;
+}
+ul li  {
+    position: relative;
+  }
+  ul li a::after{
+    content: "";
+    position: absolute;
+    width:0%;
+    height: 2px;
+    background-color: red;
+    bottom: 0;
+    left: 21px;
+    transition: all 0.5s;
+  }
+  ul li a:hover::after{
+    width:55%;
+  }
